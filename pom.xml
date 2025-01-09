@@ -25,8 +25,8 @@
         <version>0.146.30</version>
     </parent>
     <groupId>org.kill-bill.billing.plugin.java</groupId>
-    <artifactId>hello-world-plugin</artifactId>
-    <version>2.0.1-SNAPSHOT</version>
+    <artifactId>webhook-invoice-creation</artifactId>
+    <version>1.0.0</version>
     <packaging>bundle</packaging>
     <name>Kill Bill OSGI Hello World bundle</name>
     <description>Kill Bill Hello World plugin</description>
@@ -48,7 +48,7 @@
         <check.skip-enforcer>true</check.skip-enforcer>
         <check.skip-rat>true</check.skip-rat>
         <check.skip-spotbugs>true</check.skip-spotbugs>
-        <osgi.private>org.killbill.billing.plugin.helloworld.*</osgi.private>
+        <osgi.private>org.killbill.billing.plugin.webhookinvoicecreation.*</osgi.private>
     </properties>
     <dependencies>
         <dependency>
