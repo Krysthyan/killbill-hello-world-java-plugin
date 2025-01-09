@@ -154,4 +154,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://github.com/Krysthyan/killbill-hello-world-java-plugin</url>
+        </repository>
+    </distributionManagement>
+
 </project>
